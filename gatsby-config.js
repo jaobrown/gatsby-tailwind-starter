@@ -1,3 +1,5 @@
+var { everythingButColors } = require("./plugins/repeated-decl/ignore")
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Tailwind Starter`,
@@ -32,6 +34,13 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
         postCssPlugins: [
+          require("./plugins/repeated-decl")({
+            threshold: {
+              utils: 5,
+              variables: 3,
+            },
+            ignore: everythingButColors,
+          }),
           require("tailwindcss"),
           require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
         ],
