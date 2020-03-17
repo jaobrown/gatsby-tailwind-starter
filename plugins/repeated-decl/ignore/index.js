@@ -1,3 +1,5 @@
+// This file is to test out passing ignore configurations
+// to the plugin—grouped by purpose (?)
 exports.flex = [
   "align-items",
   "justify-content",
@@ -22,6 +24,7 @@ exports.size = [
   "max-width",
 ]
 
+// Spread all of the items above into one mega-array
 exports.everythingButColors = [
   ...this.flex,
   ...this.base,
