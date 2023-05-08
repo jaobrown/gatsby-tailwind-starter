@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Jared Brown <jared@kodastudio.co>",
   "dependencies": {
-    "gatsby": "^2.21.1",
+    "gatsby": "^5.9.0",
     "gatsby-image": "^2.4.0",
     "gatsby-plugin-manifest": "^2.4.1",
     "gatsby-plugin-offline": "^3.2.0",
@@ -13,7 +13,7 @@
     "gatsby-plugin-purgecss": "^4.0.1",
     "gatsby-plugin-react-helmet": "^3.3.0",
     "gatsby-plugin-sass": "^2.3.0",
-    "gatsby-plugin-sharp": "^2.6.0",
+    "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-source-filesystem": "^2.3.0",
     "gatsby-transformer-sharp": "^2.5.0",
     "node-sass": "^4.14.0",
